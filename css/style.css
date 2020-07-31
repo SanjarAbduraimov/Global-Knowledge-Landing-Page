@@ -1,0 +1,24 @@
+::-webkit-scrollbar {
+    display: none;
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url(../assets/fonts/Poppins-Regular.ttf);
+}
+
+body {
+    background: url(../assets/img/background.svg) no-repeat top right;
+    overflow-x: hidden; 
+    font-family: "Poppins";
+}
+
+.btn {
+    background: #0ABF53;
+    padding: 10px 20px;
+    color: #fff;
+    font-size: 16px;
+    line-height: 24px;
+    border-radius: 50px;
+}
+
